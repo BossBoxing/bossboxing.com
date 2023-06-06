@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/hudsawat-akkati/",
+		label: "Linkedin",
+		handle: "Hudsawat Akkati",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:boss_slam@hotmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "boss_slam@hotmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/BossBoxing",
 		label: "Github",
-		handle: "chronark",
+		handle: "BossBoxing",
 	},
 ];
 
